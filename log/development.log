@@ -1,0 +1,24 @@
+
+
+Started GET "/" for ::1 at 2015-12-19 20:47:17 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 28ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for ::1 at 2015-12-19 20:48:30 -0600
+Processing by Rails::InfoController#properties as */*
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/info/properties.html.erb (0.4ms)
+Completed 200 OK in 207ms (Views: 28.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2015-12-25 13:44:41 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 53ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for ::1 at 2015-12-25 13:44:48 -0600
+Processing by Rails::InfoController#properties as */*
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/templates/rails/info/properties.html.erb (0.6ms)
+Completed 200 OK in 212ms (Views: 27.9ms | ActiveRecord: 3.0ms)
