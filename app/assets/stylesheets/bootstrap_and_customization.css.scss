@@ -1,4 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
 $body-bg : #2ecc71;
 $navbar-inverse-bg : #27ae60;
 $navbar-inverse-link-color : white;
-@import 'bootstrap'
+@import 'bootstrap';
+    
+    .center {
+    text-align: center;
+    }    
