@@ -1,9 +1,15 @@
 <div class = "jumbotron center">
 <h1>Ruby on Rails Home Page - Pavan </h1>
-<p> 
+    <% if user_signed_in? %>
+    #do something
+    
+    <% else %>
+    
+     <p> 
     <%= link_to "Login", "#", class: "btn btn-default" %>
-   <%= link_to "Sign up", "#", class: "btn btn-primary" %>
-
+    <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary" %>
     </p>
+    
+    <% end %>
 </div>
 
