@@ -5961,3 +5961,114 @@ Processing by Devise::SessionsController#new as HTML
   Rendered devise/sessions/new.html.erb within layouts/application (15.9ms)
   Rendered layouts/_header.html.erb (0.4ms)
 Completed 200 OK in 73ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-01-23 15:12:25 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:21: unknown regexp option - l
+unmatched close parenthesis: /li>
+          <li><%= link_to "logout" , destroy_user_session_path, method: :delete );@output_buffer.safe_append='</i
+/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:24: unknown regexp option - l
+/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:28: syntax error, unexpected '<', expecting ')'
+      </ul>
+       ^
+/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:29: unknown regexp options - dv
+/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:29: syntax error, unexpected '<'
+    </div><!-- /.navbar-collapse -->
+           ^
+/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:30: unknown regexp options - dv
+/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:30: syntax error, unexpected '<'
+  </div><!-- /.container-fluid -->
+         ^
+/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:31: unknown regexp options - av
+/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:31: unterminated string meets end of file
+/Users/Pavan/Desktop/pinteresting/app/views/layouts/_header.html.erb:31: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/layouts/_header.html.erb:21: unknown regexp option - l
+  app/views/layouts/_header.html.erb:24: unknown regexp option - l
+  app/views/layouts/_header.html.erb:28: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/_header.html.erb:29: unknown regexp options - dv
+  app/views/layouts/_header.html.erb:29: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:30: unknown regexp options - dv
+  app/views/layouts/_header.html.erb:30: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:31: unknown regexp options - av
+  app/views/layouts/_header.html.erb:31: unterminated string meets end of file
+  app/views/layouts/_header.html.erb:31: syntax error, unexpected end-of-input, expecting ')'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___680794238771711487_70272616983880'
+
+
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.0ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (48.8ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Pavan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (136.4ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-01-23 15:13:07 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-df236a48180198d0a0e31bb80f29d7e2c3852cefe55948710340b38109d51a7c.css?body=1" for ::1 at 2016-01-23 15:13:07 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-01-23 15:13:07 -0600
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 15:13:07 -0600
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-23 15:13:07 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 15:13:07 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 15:13:07 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 15:13:07 -0600
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 15:13:07 -0600
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-01-23 15:13:07 -0600
+
+
+Started GET "/users/sign_in" for ::1 at 2016-01-23 15:13:11 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 61ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-01-23 15:13:14 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-01-23 15:13:16 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
