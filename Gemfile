@@ -25,9 +25,10 @@ gem 'bootstrap-sass'
 
 gem 'devise', '~> 3.5', '>= 3.5.3'# Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'paperclip', '~> 4.1'
 # Use Unicorn as the app server
 # gem 'unicorn'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
